@@ -1,0 +1,16 @@
+@import url('core/libraries.css');
+@import url('core/template/template.css');
+@import url('core/grid/grids.css');
+@import url('core/content.css');
+@import url('plugins/newicon/content.css');
+@import url('core/module/mod.css');
+@import url('core/module/mod_skins.css');
+@import url('plugins/newicon/module/mod_skins.css');
+@import url('plugins/forms/forms.css');
+@import url('plugins/forms/form-components.css');
+@import url('plugins/talk/talk.css');
+@import url('plugins/talk/talk_skins.css');
+@import url('plugins/newicon/talk/talk_skins.css');
+@import url('plugins/buttons/buttons.css');
+@import url('plugins/progress/progress.css');
+@import url('plugins/icons/sprite.css');

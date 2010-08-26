@@ -1,0 +1,56 @@
+/** Block Form **/
+form.block .lbl {display: block; }
+
+/** Float Align Form **/
+form.float .lbl {position: relative; float:left; width:10em; margin-right:1em;display:block;}
+	
+form.float fieldset li.formFieldBlock {clear:left; overflow:hidden; padding:6px 1% 9px; list-style:none;}
+form.float .formFieldBlock .fieldList {padding:0px;}
+form.float .formFieldBlock .inputContainer{/*overflow:hidden;width:auto;*/max-width:600px;float:left;}
+
+form.float fieldset.submit {float:none; width:auto; border:0 none #FFF; padding-left:12em;}
+		
+/** Float left Align Form **/
+form.float.right .lbl{text-align:right;}
+
+legend{margin-left:1em; padding:0; color:#000;	font-weight:bold;}
+
+form .fields {list-style:none;}
+.lbl abbr { left: 10em; color:#CC0000 }
+.required abbr { color:#CC0000 }
+/** ERROR AND VALIDATION STUFF **/
+
+.formFieldBlock.valid{background-color:#e8fbdc;}
+.formFieldBlock.focus{background-color:#eaf2fa;}
+.formFieldBlock.invalid{background-color:#fbdcdc;}
+
+/** position and style error text in label strong **/	
+.lbl strong {position: absolute; left: 27em; top: 0.2em; width: 19em; color: #C00; font-size: 85%; font-weight: normal;}
+.lbl strong img { position: absolute; left: -16em; }
+
+.invalid {border-color:#d07e7e;color:#CC0000;}
+label.invalid {display:block;position:relative;padding-left:18px;background:transparent url('skin/validation/error-arrow.png') no-repeat scroll 0 3px;}
+label.lbl.lblError{color:#CC0000;}
+
+/** tabs **/
+ul.newtabs {background:transparent url('skin/components/tabs-bg.gif') repeat-x scroll 0 100%;padding:0px 0px 0px 5px;height:32px;display:block;}
+.newtabs li, .newtabs a, .newtabs em{float:left;font-size:14px;font-style:normal;font-weight:bold;height:32px;}
+.newtabs li {margin-right:5px;list-style:none;}
+.newtabs .active {background-position:0 -32px;color:#E34500;}
+.newtabs .active em {background-position:100% -32px;}
+.newtabs a, .newtabs em {background:transparent url('skin/components/tabs.gif') no-repeat scroll 0 0;}
+.newtabs em {background-position:100% 0;line-height:32px;padding-right:15px;}
+.newtabs-container {display:block;}
+.newtabs a {color:#444444;padding-left:15px;cursor:pointer;}
+.newpanels {position:relative;}
+.newpanel {display:none;width:100%;}
+.newpanel.visible {display:block;}
+
+/* wp-tabs */
+ul.newtabs.wp-tabs {height:28px;}
+.newtabs.wp-tabs li, .newtabs.wp-tabs a, .newtabs.wp-tabs em{font-size:12px;height:28px;line-height:28px; text-decoration:none;font-weight:normal;}
+.newtabs.wp-tabs .active {background-position:0 -28px;color:#000000;}
+.newtabs.wp-tabs .active em {background-position:100% -28px;}
+.newtabs.wp-tabs a, .newtabs.wp-tabs em {background-image:url('skin/components/wp-tabs.png');}
+
+.tab-page-white .newpanel{background:transparent url('skin/components/tabs-page-bg.png') repeat-x top left;overflow:hidden;}

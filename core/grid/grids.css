@@ -12,4 +12,11 @@
 .size2of5{width:40%;}
 .size3of5{width:60%;}
 .size4of5{width:80%;}
+.size1of6{width:16.66667%;}
+.size4of6{width:66.66668%;}
+.size5of6{width:83.33335%;}
+.size1of10{width:10%;}
+.size2of10{width:20%;}
+.size3of10{width:30%;}
+.size4of10{width:40%;}
 .lastUnit{display:table-cell;float:none;width:auto;*display:block;*zoom:1;_position:relative;_left:-3px;_margin-right:-3px;}
